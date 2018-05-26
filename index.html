@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kaz's Awesome Number Guessing Game</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Kaz's Awesome Number Guessing Game<br>Made for Ma</h1>
+    
+    <p>
+      Guess my number! It must be between <span id="min">0</span> and <span id ="max">10</span>.
+    </p>
+     
+    <form>
+      <input id="guessInput" type="number" min="0" max="10">
+      <button id="guessButton">
+        Guess
+      </button>
+    </form>
+    
+    <h2>Guesses</h2>
+    
+    <ol id="guessList">
+      
+    </ol>
+
+  </body>
+</html>
